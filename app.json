@@ -1,18 +1,15 @@
 {
 
-  "name": "PRABATH-MD",
-
+  "name": "PRABATH-MD (5.0.0)",
   "description": "PRABATH-MD has been designed to make things easier and fun while using WhatsApp. 👨‍💻❤️",
-
   "logo": "https://telegra.ph/file/ad25b2227fa2a1a01b707.jpg",
-
   "keywords": ["nodejs", "bot", "whatsapp bot", "multi device"],
-
   "success_url": "/",
-
   "stack": "container",
 
 "env": {
+
+  
 
   "OWNER_NAME": {
 
@@ -37,22 +34,36 @@
      "value": "i am alive now 🙋‍♂️"
 
     },
-  
-    "AUTO_VOICE": {
 
-    "description": "Auto Voice reply යන්න ඕන නම් true දෙන්න ඕනෙ නැත්තම් false දෙන්න",
+     "AUTO_RESTART": {
 
-     "value": "false"
+    "description": "If you want the bot to restart every hour, give true",
 
-    },
-  
-    "AUTO_STICKER": {
-
-    "description": "auto sticker යන්න ඕන නම් true දෙන්න ඕනෙ නැත්තම් false දෙන්න",
-
-     "value": "false"
+     "value": "true"
 
     },
+  
+  "HEROKU_APP_NAME": {
+
+    "description": "put your heroku app name"
+
+  },  
+
+  
+
+  "HEROKU_API_KEY": {
+
+    "description": "put your heroku api key"
+
+  },  
+
+      "SUDO": {
+
+  "description": "In addition to the bot number, enter another number here to control the bot",
+
+      "value": "94762280384"
+
+  },
 
    "ANTILINK_VALUES": {
 
@@ -84,7 +95,7 @@
 
       "PREFIX": {
 
-  "description": "මෙය වෙනස් නොකරන්න ",
+  "description": "put your prefix",
 
       "value": "."
 
@@ -92,7 +103,7 @@
 
   "OWNER_NUMBER": {
 
-    "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
+    "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma",
 
        "value": "94762280384"
 
@@ -106,12 +117,8 @@
 
     "OPENAI_API_KEY": {
 
-    "description": "මෙය වෙනස් නොකරන්න ",
-
-       "value": "Replace Me(optional)",
-
-       "required" :false
-
+    "description": "put your open_ai_api_key from https://platform.openai.com/account/api-keys",
+    "required" :false
   },
 
   "WELCOME_MESSAGE": {
@@ -126,13 +133,13 @@
 
   "MONGODB_URI": {
 
-    "description": "MONGODB_URI එක මෙහි යොදන්න දන්නෙ නැත්නම් මෙය බලන්න https://youtu.be/C4feDuE-vrM "
+    "description": "Put Your Mongodb_url from https://railway.app/new"
 
   },
 
     "THEME": {
 
-    "description": "මෙය වෙනස් නොකරන්න (Don't Change This) ",
+    "description": "මෙය වෙනස් නොකරන්න(Don't Change This) ",
 
      "value": "PRABATH-MD"
 
